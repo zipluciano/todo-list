@@ -1,10 +1,10 @@
 # To-Do List
 
-Esse projeto foi desenvolvido com o objetivo de praticar a manipulação do DOM, com HTML, CSS e JavaScript, através de formulários e armazenamento em LocalStorage. Para utilizá-lo basta seguir os passos em [Usage](#usage).
+Esse projeto foi desenvolvido com o objetivo de praticar a manipulação do DOM, com HTML, CSS e JavaScript, através de formulários e armazenamento em LocalStorage. Para utilizá-lo basta seguir os passos em [Como usar](#como-usar).
 
  ![image](./project/to_do_list.png)
 
-# Usage
+# Como Usar
 
 Antes das instruções para utilização, é necessário verificar se você possui Git instalado em sua máquina e executar o comando `git clone https://github.com/zipluciano/todo-list`, ou baixar este repositório compactado, conforme a imagem abaixo. 
 
