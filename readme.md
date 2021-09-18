@@ -12,9 +12,9 @@ Antes das instruções para utilização, é necessário verificar se você poss
 
 ### Como usar
 
-- Abra o arquivo `index.html` no seguinte caminho `./project/index.html`. 
+- Abra o arquivo `index.html` no seguinte caminho `./project/index.html`
 
-- Para adicionar uma tarefa digite-a no campo de inserção.
+- Para adicionar uma tarefa digite-a no campo de inserção
 
   ![image](./project/add_task.png)
   ![image](./project/task.png)
@@ -29,4 +29,4 @@ Antes das instruções para utilização, é necessário verificar se você poss
 
 # License
 
-MIT License (MIT) 2021 - [LICENSE](./LICENSE).
+MIT License (MIT) 2021 - [LICENSE](./LICENSE)
