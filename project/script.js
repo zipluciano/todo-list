@@ -41,6 +41,7 @@ const showTasksOnLoad = (array) => {
     };
 };
 
+// display the new task
 const updateTask = (task, array, container) => {
     const index = array.length;
     const taskContent = 
@@ -55,6 +56,7 @@ const updateTask = (task, array, container) => {
     container.insertAdjacentHTML('beforeend', taskContent);
 };
 
+// check the task
 const markTask = (element) => {    
     let elementID = element.id;
     let respectiveLabel = document.querySelector(`.${elementID}`);
@@ -92,12 +94,14 @@ const mapChecked = (array) => {
 };
 
 const removeTask = (element) => {        
-    let content = element.closest(".task-content");    
-    let respectiveLabel = content.children[0].children[1];
-    let index = findObjectIndex(respectiveLabel.innerHTML);    
-    taskStorage.splice(index, 1);
-    localStorage.setItem('task', JSON.stringify(taskStorage));
-    document.location.reload(true);
+    if (window.confirm('Are you sure you want to remove the task?')) {
+        let content = element.closest(".task-content");    
+        let respectiveLabel = content.children[0].children[1];
+        let index = findObjectIndex(respectiveLabel.innerHTML);    
+        taskStorage.splice(index, 1);
+        localStorage.setItem('task', JSON.stringify(taskStorage));
+        document.location.reload(true);
+    };
 };
 
 
