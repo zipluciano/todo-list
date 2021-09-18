@@ -4,7 +4,7 @@ Esse projeto foi desenvolvido com o objetivo de praticar a manipulação do DOM,
 
  ![image](./project/to_do_list.png)
 
-# Como Usar
+## Nota
 
 Antes das instruções para utilização, é necessário verificar se você possui Git instalado em sua máquina e executar o comando `git clone https://github.com/zipluciano/todo-list`, ou baixar este repositório compactado, conforme a imagem abaixo. 
 
